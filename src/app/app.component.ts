@@ -8,3 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app';
 }
+export class Hero {
+  id: number;
+  name: string;
+}
+
