@@ -1,10 +1,9 @@
 <div [align]="alignement" [ngStyle]="{color:couleur}">Personne : {{person | uppercase }} | Age : {{age}} | Adresse : {{address.street}}</div>
-<app-comp1 [monAdresse]="address"></app-comp1>
 <button (click)="modifierPersonne()">Modifier adresse</button>
 
 <h1>Super compteur ! </h1>
 <span>This is my super compteur : {{superCounter}}</span>
 
 <h1>Event binding - Compteur</h1>
-<div><app-comp2 (counterChange)="myCounterChange($event);"> </app-comp2></div><br/>
+<div><app-compteur (counterChange)="myCounterChange($event);"> </app-compteur></div><br/>
 <div>Valeur récupérée : {{counter}}</div>

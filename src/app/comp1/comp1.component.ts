@@ -3,9 +3,7 @@ import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-comp1',
-  template: `
-    {{monAdresse.street}}
-  `
+  templateUrl: './comp1.component.html'
 })
 
 export class Comp1Component  {

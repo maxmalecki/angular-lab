@@ -1,10 +1,10 @@
 import {Component, Output, EventEmitter} from '@angular/core';
 
 @Component({
-  selector: 'app-comp2',
-  templateUrl: './comp2.component.html'
+  selector: 'app-compteur',
+  templateUrl: './compteur.component.html'
 })
-export class Comp2Component  {
+export class CompteurComponent  {
 
   counterValue: number = 0;
   @Output() counterChange = new EventEmitter();
